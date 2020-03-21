@@ -1,3 +1,6 @@
+from dataclasses import  dataclass
+
+@dataclass
 class Element :
 
     def __init__(self, id, node1, node2, node3) :
