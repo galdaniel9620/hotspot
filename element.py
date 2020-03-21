@@ -7,4 +7,4 @@ class Element :
         self.node3 = node3
         self.is_hotspot = False
         self.value = 0
-        self.neighbors = []
+        self.neighbors = set()
